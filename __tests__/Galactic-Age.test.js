@@ -20,10 +20,10 @@ describe ('galacticAge', () => {
     let expectedResult = 32*1.88;
     let timeLeftResult = (80*1.88)-expectedResult;
     expect(GL_Age.modifiedAge).toEqual(0);
-    expect(GL_Age.timeLeftResult).toEqual(0);
+    expect(GL_Age.modifiedLifeEx).toEqual(0);
     GL_Age.marsValues();
     expect(GL_Age.modifiedAge).toEqual(expectedResult)
-    expect(Gl_age.timeLeftResult).toEqual(timeLeftResult)
+    expect(GL_Age.modifiedLifeEx).toEqual(timeLeftResult)
   });
 
   //Mercury Age test
