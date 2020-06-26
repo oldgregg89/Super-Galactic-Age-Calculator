@@ -7,7 +7,7 @@
 
 ## Description
 
-_This application will calculate your age in Mercury years, Venus years._
+_This application will calculate your age in Murcery years, Venus years, Mars years, and Jupiter years. It will also determine how many years the person has left on each planet _
 
 ## Setup/Installation Requirements
 
