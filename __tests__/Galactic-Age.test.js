@@ -15,11 +15,11 @@ describe ('galacticAge', () => {
     jupiterAge = new galacticAge
     lifeExpectancy = new galacticAge
     pastLifeExpectancy = new galacticAge
-  }
+  });
 
-  text( , =>{
-
-  }
+  test('This will give you your age for venus', () => {
+    expect(venusAge.age).toEqual(age);
+  });
 
   // text( , =>{
     
