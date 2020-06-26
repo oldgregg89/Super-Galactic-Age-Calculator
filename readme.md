@@ -7,7 +7,7 @@
 
 ## Description
 
-_This application will calculate your age in Murcery years, Venus years, Mars years, and Jupiter years. It will also determine how many years the person has left on each planet _
+_This application will calculate your age in Murcery years, Venus years, Mars years, and Jupiter years. It will also determine how many years the person has left on each planet._
 
 ## Setup/Installation Requirements
 
@@ -23,10 +23,10 @@ __
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| behavior 1 |  |  |
-| behavior 2 |  |  |
-| behavior 3 |  |  |
-| behavior 4 |  |  |
+| type in age | add age | age on planet |
+| type in name | add name | name presented on output |
+| type in life expectency | add life expectency | life expectency on planet |
+
 
 
 ## Known Bugs
