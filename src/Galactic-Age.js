@@ -8,14 +8,14 @@ export class GalacticAge {
   }
 
   venusValues(){
-    // this.modifiedAge = (this.age*.62);
-    // this.modifiedLifeEx = (this.lifeEx*.62)-this.modifiedAge;
+    this.modifiedAge = (this.age*.62);
+    this.modifiedLifeEx = (this.lifeEx*.62)-this.modifiedAge;
   }
 
-  // marsValues(){
+  marsValues(){
   //   this.modifiedAge = (this.age*1.88);
   //   this.modifiedLifeEx = (this.lifeEx*1.88)-this.modifiedAge;
-  // }
+  }
 
 
   // mercuryAge(){
