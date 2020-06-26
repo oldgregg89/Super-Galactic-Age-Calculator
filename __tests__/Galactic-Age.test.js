@@ -40,12 +40,9 @@ describe ('galacticAge', () => {
 
   //Jupiter Age test
   test('This will give you the age & time left on Jupiter' , () => {
-    let GL_Age = new GalacticAge(80,"Ian",32);
-    let lifeEx = 32;
-    let boolgan = true;
+    let GL_Age = new GalacticAge(80,"Ian",32)
     let expectedResult = 80*11.86;
     let timeLeftResult = (32*11.86)-expectedResult;
-    let overTime = 
     expect(GL_Age.modifiedAge).toEqual(0);
     expect(GL_Age.modifiedLifeEx).toEqual(0);
     GL_Age.jupiterValues();

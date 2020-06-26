@@ -1,3 +1,5 @@
+import compareVersions from "compare-versions";
+
 export class GalacticAge {
   constructor(age,name,lifeEx) {
   this.age = age;
@@ -26,9 +28,6 @@ export class GalacticAge {
   jupiterValues() {
     this.modifiedAge = (this.age*11.86);
     this.modifiedLifeEx = (this.lifeEx*11.86)-this.modifiedAge;
-    if (this.age > this.lifeEx) {
-      return true
-    }
   }
 
 }
