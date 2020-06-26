@@ -18,14 +18,14 @@ export class GalacticAge {
   }
 
 
-  mercuryValues(){
+  mercuryValues() {
     this.modifiedAge = (this.age*.24);
     this.modifiedLifeEx = (this.lifeEx*.24)-this.modifiedAge;
   }
 
-  // jupiterValues(){
+  jupiterValues() {
   //   this.modifiedAge = (this.age*11.86);
   //   this.modifiedLifeEx = (this.lifeEx*11.86)-this.modifiedAge;
-  // }
+  }
 
 }
