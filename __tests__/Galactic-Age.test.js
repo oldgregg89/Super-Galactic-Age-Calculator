@@ -7,18 +7,20 @@ describe ('galacticAge', () => {
   let jupiterAge;
   let lifeExpectancy;
   let pastLifeExpectancy;
+  let age;
 
   beforeEach(() => {
-    venusAge = new galacticAge
-    marsAge = new galacticAge
-    mercuryAge = new galacticAge
-    jupiterAge = new galacticAge
-    lifeExpectancy = new galacticAge
-    pastLifeExpectancy = new galacticAge
+    venusAge = new galacticAge ();
+    marsAge = new galacticAge ();
+    mercuryAge = new galacticAge ();
+    jupiterAge = new galacticAge ();
+    lifeExpectancy = new galacticAge ();
+    pastLifeExpectancy = new galacticAge ();
+    age = new galacticAge(23);
   });
 
   test('This will give you your age for venus', () => {
-    expect(venusAge.age).toEqual(age);
+    expect(venusAge.age).toEqual(37.1);
   });
 
   // text( , =>{
