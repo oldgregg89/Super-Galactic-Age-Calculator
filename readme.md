@@ -1,19 +1,20 @@
-# _new template_
+# _Galactic-Age-Calculator_
 
-#### _{Brief description of application}, 2020 ver 1.0_
+#### _This application is used to find out your age on various planets, 2020 ver 1.0_
 
 #### By _Ian Gregg & (Co author)_
-[new-template-for-code](https://github.com/oldgregg89/updated-new-template-)
+[Galactic-Age-Calculator](https://github.com/oldgregg89/Super-Galactic-Age-Calculator)
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application will calculate your age in Mercury years, Venus years._
 
 ## Setup/Installation Requirements
 
 
 * Click on clone and clone this repo to your desktop.
 * From there navigate to desktop to where you cloned this repo.
+* Pull up the file in Visual Code Studio and run npm installers
 * double click on index.html file and from there the software will be ready to run.
 
 __
@@ -22,10 +23,10 @@ __
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| behavior 1 | 'click' box | 'large', 'Med', Or 'small' |
-| behavior 2 | 'click' sauce | 'pesto', 'Alfredo', Or 'Marinara'  |
-| behavior 3 | 'click' check boxs | adds toppings choosen |
-| behavior 4 | 'click' Submit | final price |
+| behavior 1 |  |  |
+| behavior 2 |  |  |
+| behavior 3 |  |  |
+| behavior 4 |  |  |
 
 
 ## Known Bugs
