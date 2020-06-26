@@ -18,7 +18,7 @@ describe ('galacticAge', () => {
     pastLifeExpectancy = new galacticAge ();
     age = new galacticAge(23);
   });
-
+  //first test to try and make work
   test('This will give you your age for venus', () => {
     expect(venusAge.age).toEqual(37.1);
   });
