@@ -2,7 +2,7 @@
 
 #### _This application is used to find out your age on various planets, 2020 ver 1.0_
 
-#### By _Ian Gregg & (Co author)_
+#### By _Ian Gregg_
 [Galactic-Age-Calculator](https://github.com/oldgregg89/Super-Galactic-Age-Calculator)
 
 ## Description
@@ -14,7 +14,7 @@ _This application will calculate your age in Murcery years, Venus years, Mars ye
 
 * Click on clone and clone this repo to your desktop.
 * From there navigate to desktop to where you cloned this repo.
-* Pull up the file in Visual Code Studio and run npm installers
+* Pull up the file in Visual Code Studio and run npm installers.
 * double click on index.html file and from there the software will be ready to run.
 
 __

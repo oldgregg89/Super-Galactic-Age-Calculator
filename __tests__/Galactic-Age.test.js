@@ -22,17 +22,24 @@ describe ('galacticAge', () => {
     expect(GL_Age.modifiedAge).toEqual(0);
     expect(GL_Age.modifiedLifeEx).toEqual(0);
     GL_Age.marsValues();
-    expect(GL_Age.modifiedAge).toEqual(expectedResult)
-    expect(GL_Age.modifiedLifeEx).toEqual(timeLeftResult)
+    expect(GL_Age.modifiedAge).toEqual(expectedResult);
+    expect(GL_Age.modifiedLifeEx).toEqual(timeLeftResult);
   });
 
   //Mercury Age test
-  // test( , () =>{
-    
-  // });
+  test('This will give you your age & time left on Mercury' , () => {
+    let GL_Age = new GalacticAge(32,"Ian",80);
+    let expectedResult = 32*.24;
+    let timeLeftResult = (80*.24)-expectedResult
+    expect(GL_Age.modifiedAge).toEqual(0);
+    expect(GL_Age.modifiedLifeEx).toEqual(0);
+    GL_Age.mercuryValues();
+    expect(GL_Age.modifiedAge).toEqual(expectedResult);
+    expect(GL_Age.modifiedLifeEx).toEqual(timeLeftResult);
+  });
 
   //Jupiter Age test
-  // test( , () =>{
+  // test( , () => {
     
   // });
 });
