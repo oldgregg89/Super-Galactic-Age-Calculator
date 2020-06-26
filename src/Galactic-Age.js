@@ -24,8 +24,11 @@ export class GalacticAge {
   }
 
   jupiterValues() {
-  //   this.modifiedAge = (this.age*11.86);
-  //   this.modifiedLifeEx = (this.lifeEx*11.86)-this.modifiedAge;
+    this.modifiedAge = (this.age*11.86);
+    this.modifiedLifeEx = (this.lifeEx*11.86)-this.modifiedAge;
+    if (this.age > this.lifeEx) {
+      return true
+    }
   }
 
 }
