@@ -7,27 +7,40 @@ export class GalacticAge {
   this.lifeEx = lifeEx;
   this.modifiedAge = 0;
   this.modifiedLifeEx = 0;
+  this.overtime = 0;
   }
 
   venusValues() {
     this.modifiedAge = (this.age*.62);
     this.modifiedLifeEx = (this.lifeEx*.62)-this.modifiedAge;
+    // if (this.modifiedAge > this.modifiedLifeEx){
+    //   this.overtime = (this.modifiedAge-this.modifiedLifeEx)
+    // }
   }
 
   marsValues() {
     this.modifiedAge = (this.age*1.88);
     this.modifiedLifeEx = (this.lifeEx*1.88)-this.modifiedAge;
+    if (this.modifiedAge > this.modifiedLifeEx){
+      this.overtime = (this.modifiedAge-this.modifiedLifeEx)
+    }
   }
 
 
   mercuryValues() {
     this.modifiedAge = (this.age*.24);
     this.modifiedLifeEx = (this.lifeEx*.24)-this.modifiedAge;
+    if (this.modifiedAge > this.modifiedLifeEx){
+      this.overtime = (this.modifiedAge-this.modifiedLifeEx)
+    }
   }
 
   jupiterValues() {
     this.modifiedAge = (this.age*11.86);
     this.modifiedLifeEx = (this.lifeEx*11.86)-this.modifiedAge;
+    if (this.modifiedAge > this.modifiedLifeEx){
+      this.overtime = (this.modifiedAge-this.modifiedLifeEx)
+    }
   }
 
 }
