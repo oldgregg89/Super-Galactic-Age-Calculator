@@ -13,16 +13,16 @@ export class GalacticAge {
   venusValues() {
     this.modifiedAge = (this.age*.62);
     this.modifiedLifeEx = (this.lifeEx*.62)-this.modifiedAge;
-    // if (this.modifiedAge > this.modifiedLifeEx){
-    //   this.overtime = (this.modifiedAge-this.modifiedLifeEx)
-    // }
+    if (this.modifiedAge > this.modifiedLifeEx){
+      this.overtime = (this.modifiedAge-this.modifiedLifeEx);
+    }
   }
 
   marsValues() {
     this.modifiedAge = (this.age*1.88);
     this.modifiedLifeEx = (this.lifeEx*1.88)-this.modifiedAge;
     if (this.modifiedAge > this.modifiedLifeEx){
-      this.overtime = (this.modifiedAge-this.modifiedLifeEx)
+      this.overtime = (this.modifiedAge-this.modifiedLifeEx);
     }
   }
 
@@ -31,7 +31,7 @@ export class GalacticAge {
     this.modifiedAge = (this.age*.24);
     this.modifiedLifeEx = (this.lifeEx*.24)-this.modifiedAge;
     if (this.modifiedAge > this.modifiedLifeEx){
-      this.overtime = (this.modifiedAge-this.modifiedLifeEx)
+      this.overtime = (this.modifiedAge-this.modifiedLifeEx);
     }
   }
 
@@ -39,7 +39,7 @@ export class GalacticAge {
     this.modifiedAge = (this.age*11.86);
     this.modifiedLifeEx = (this.lifeEx*11.86)-this.modifiedAge;
     if (this.modifiedAge > this.modifiedLifeEx){
-      this.overtime = (this.modifiedAge-this.modifiedLifeEx)
+      this.overtime = (this.modifiedAge-this.modifiedLifeEx);
     }
   }
 
