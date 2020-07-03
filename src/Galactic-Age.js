@@ -5,7 +5,7 @@ export class GalacticAge {
   }
 
   venusAge() {
-
+    return this.age/.62
   }
 
   venusExpectency(){
@@ -13,7 +13,7 @@ export class GalacticAge {
   }
 
   marsAge() {
-
+    return this.age/1.88
   }
 
   marsExpectency(){
@@ -22,7 +22,7 @@ export class GalacticAge {
 
 
   mercuryAge() {
-
+    return this.age/.24
   }
 
   mercuryExpectency(){
@@ -30,7 +30,7 @@ export class GalacticAge {
   }
 
   jupiterAge() {
-
+    return this.age/11.86
   }
 
   jupiterExpectency(){
