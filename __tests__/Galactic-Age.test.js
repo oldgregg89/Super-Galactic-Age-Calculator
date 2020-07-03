@@ -12,7 +12,7 @@ describe ('galacticAge', () => {
 
   test('This test gives you the life expectency on Venus', () => {
     let GL_Age = new GalacticAge(80,32);
-    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.age;
+    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.venusAge();
     let lifeResult = GL_Age.venusExpectency();
     expect(lifeResult).toEqual(lifeExpectiencyResult);
   });
@@ -27,7 +27,7 @@ describe ('galacticAge', () => {
 
   test('This test gives you the life expectency on Mars', () => {
     let GL_Age = new GalacticAge(80,32);
-    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.age;
+    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.marsAge();
     let lifeResult = GL_Age.marsExpectency();
     expect(lifeResult).toEqual(lifeExpectiencyResult);
   });
@@ -42,7 +42,7 @@ describe ('galacticAge', () => {
 
   test('This test gives you the life expectency on Mercury', () => {
     let GL_Age = new GalacticAge(80,32);
-    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.age;
+    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.mercuryAge();
     let lifeResult = GL_Age.mercuryExpectency();
     expect(lifeResult).toEqual(lifeExpectiencyResult);
   });
@@ -57,7 +57,7 @@ describe ('galacticAge', () => {
 
   test('This test gives you the life expectency on Jupiter', () => {
     let GL_Age = new GalacticAge(80,32);
-    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.age;
+    let lifeExpectiencyResult = GL_Age.lifeEx-GL_Age.jupiterAge();
     let lifeResult = GL_Age.jupiterExpectency();
     expect(lifeResult).toEqual(lifeExpectiencyResult);
   });
