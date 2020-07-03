@@ -14,8 +14,10 @@ _This application will calculate your age in Murcery years, Venus years, Mars ye
 
 * Click on clone and clone this repo to your desktop.
 * From there navigate to desktop to where you cloned this repo.
-* Pull up the file in Visual Code Studio and run npm installers.
-* double click on index.html file and from there the software will be ready to run.
+* Open the project up in Visual Code Studio.
+* In your terminal run 'npm install'.
+* Run unit tests with 'npm run test'
+* To build the project run 'npm run build'
 
 __
 
