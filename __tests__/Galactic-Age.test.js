@@ -4,9 +4,9 @@ describe ('galacticAge', () => {
   
   //Venus age test
   test('This will give you your age & life expectency for venus', () => {
-    let GL_Age = new GalacticAge(80,"Ian",32);
-    let expectedResult = 80*.62;
-    let timeLeftResult = (32*.62)-expectedResult;
+    let GL_Age = new GalacticAge(80,32);
+    let expectedResult = GL_Age.age/.62;
+    let timeLeftResult = (GL_Age.lifeEx/.62)-expectedResult;
     let overtime = (expectedResult-timeLeftResult)
     expect(GL_Age.modifiedAge).toEqual(0);
     expect(GL_Age.modifiedLifeEx).toEqual(0);
@@ -18,9 +18,9 @@ describe ('galacticAge', () => {
 
   //Mars Age test
   test('This will give you your age & time left for Mars' , () => {
-    let GL_Age = new GalacticAge(80,"Ian",32);
-    let expectedResult = 80*1.88;
-    let timeLeftResult = (32*1.88)-expectedResult;
+    let GL_Age = new GalacticAge(80,32);
+    let expectedResult = GL_Age.age/1.88;
+    let timeLeftResult = (GL_Age.lifeEx/1.88)-expectedResult;
     let overtime = (expectedResult-timeLeftResult)
     expect(GL_Age.modifiedAge).toEqual(0);
     expect(GL_Age.modifiedLifeEx).toEqual(0);
@@ -32,9 +32,9 @@ describe ('galacticAge', () => {
 
   //Mercury Age test
   test('This will give you your age & time left on Mercury' , () => {
-    let GL_Age = new GalacticAge(80,"Ian",32);
-    let expectedResult = 80*.24;
-    let timeLeftResult = (32*.24)-expectedResult;
+    let GL_Age = new GalacticAge(80,32);
+    let expectedResult = GL_Age.age/.24;
+    let timeLeftResult = (GL_Age.lifeEx/.24)-expectedResult;
     let overtime = (expectedResult-timeLeftResult)
     expect(GL_Age.modifiedAge).toEqual(0);
     expect(GL_Age.modifiedLifeEx).toEqual(0);
@@ -46,9 +46,9 @@ describe ('galacticAge', () => {
 
   //Jupiter Age test
   test('This will give you the age & time left on Jupiter' , () => {
-    let GL_Age = new GalacticAge(80,"Ian",32)
-    let expectedResult = 80*11.86;
-    let timeLeftResult = (32*11.86)-expectedResult;
+    let GL_Age = new GalacticAge(80,32)
+    let expectedResult = GL_Age.age/11.86;
+    let timeLeftResult = (GL_Age.lifeEx/11.86)-expectedResult;
     let overtime = (expectedResult-timeLeftResult)
     expect(GL_Age.modifiedAge).toEqual(0);
     expect(GL_Age.modifiedLifeEx).toEqual(0);
