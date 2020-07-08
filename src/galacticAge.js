@@ -37,4 +37,9 @@ export class GalacticAge {
     return (this.lifeEx/11.86)
   }
 
+  calculateYears(lifeEx,age){
+    
+  }
+
+
 }

@@ -62,4 +62,11 @@ describe ('galacticAge', () => {
     expect(lifeResult).toEqual(lifeExpectiencyResult);
   });
 
+  test('This test tells you how long you have lived over or under your life expectency', () => {
+    let GL_Age = new GalacticAge(80,32);
+    let expectedResult = GL_Age.lifeEx-GL_Age.age
+    let result = GL_Age.calculateYears(GL_Age.lifeEx, GL_Age.age);
+    expect(result).toEqual(expectedResult);
+  });
+
 });
