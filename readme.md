@@ -15,19 +15,15 @@ _This application will calculate your age in Murcery years, Venus years, Mars ye
 * Click on clone and clone this repo to your desktop.
 * From there navigate to desktop to where you cloned this repo.
 * Open the project up in Visual Code Studio.
-* In your terminal run 'npm install'.
-* Run unit tests with 'npm run test'
-* To build the project run 'npm run build'
+* In your terminal run ```npm install```.
+* Run unit tests with ```npm run test```.
+* To build the project run ```npm run build```.
+* To start webpack server ```npm run start```.
 
 __
 
 ## Specs
 
-| Behavior    | Input | Output |
-| :---------- | ----- | -----: |
-| type in age | add age | age on planet |
-| type in name | add name | name presented on output |
-| type in life expectency | add life expectency | life expectency on planet |
 
 
 
