@@ -2,6 +2,7 @@ export class GalacticAge {
   constructor(age,lifeEx) {
   this.age = age;
   this.lifeEx = lifeEx;
+  this.overTime = (lifeEx-age)>0;
   }
 
   venusAge() {
@@ -38,7 +39,7 @@ export class GalacticAge {
   }
 
   calculateYears(lifeEx,age){
-    
+
   }
 
 

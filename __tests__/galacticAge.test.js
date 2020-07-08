@@ -67,6 +67,7 @@ describe ('galacticAge', () => {
     let expectedResult = GL_Age.lifeEx-GL_Age.age
     let result = GL_Age.calculateYears(GL_Age.lifeEx, GL_Age.age);
     expect(result).toEqual(expectedResult);
+    expect(GL_Age.overTime).toEqual(true);
   });
 
 });
