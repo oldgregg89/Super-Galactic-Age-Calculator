@@ -9,7 +9,7 @@ export class GalacticAge {
   }
 
   venusExpectency(){
-    return this.lifeEx-this.venusAge()
+    return (this.lifeEx/.62)-this.venusAge()
   }
 
   marsAge() {
