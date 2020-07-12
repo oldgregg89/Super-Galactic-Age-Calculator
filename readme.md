@@ -25,35 +25,35 @@ __
 ## Specs
 
 1. The program stores and returns a users age in Earth years    
-Input: 29
-Output: 29
+* Input: 29
+* Output: 29
 2. The program returns a users age in Mercury years     
-Input: 32
-Output: 133.33 
+* Input: 32
+* Output: 133.33 
 3. The program returns a users life expectency in Mercury years 
-input: 80
-output: 200
+* Input: 80
+* Output: 200
 4. The program returns a users age in Venus years
-input: 32
-output: 51.61
+* Input: 32
+* Output: 51.61
 5. The program returns a users life expectency in Venus years 
-input: 80
-output: 77.42
+* Input: 80
+* Output: 77.42
 6. The program returns a users age in Mars years
-input: 32
-output: 17.02
+* Input: 32
+* Output: 17.02
 7. The program returns a users life expectency in Mars years
-input: 80
-output: 25.53
+* Input: 80
+* Output: 25.53
 8. The program returns a users age in Jupiter years
-input: 32
-output: 2.698
+* Input: 32
+* Output: 2.698
 9. The program returns a users life expectency in Jupiter years 
-input: 80
-output: 4.047
+* Input: 80
+* Output: 4.047
 10. The program returns a value for if someone has lived past or time left on each planet 
-input: 80, 35
-output: 45
+* Input: 80, 35
+* Output: 45
 
 ## Known Bugs
 
