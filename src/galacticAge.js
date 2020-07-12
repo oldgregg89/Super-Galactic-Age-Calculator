@@ -6,47 +6,47 @@ export class GalacticAge {
   }
 
   venusAge() {
-    return this.age/.62
+    return this.age/.62;
   }
 
   venusExpectency(){
-    return (this.lifeEx/.62)
+    return (this.lifeEx/.62);
   }
 
   marsAge() {
-    return this.age/1.88
+    return this.age/1.88;
   }
 
   marsExpectency(){
-    return (this.lifeEx/1.88)
+    return (this.lifeEx/1.88);
   }
 
 
   mercuryAge() {
-    return this.age/.24
+    return this.age/.24;
   }
 
   mercuryExpectency(){
-    return (this.lifeEx/.24)
+    return (this.lifeEx/.24);
   }
 
   jupiterAge() {
-    return this.age/11.86
+    return this.age/11.86;
   }
 
   jupiterExpectency(){
-    return (this.lifeEx/11.86)
+    return (this.lifeEx/11.86);
   }
 
   calculateYears(lifeEx,age){
-    let diffrence = lifeEx-age
+    let diffrence = lifeEx-age;
     if(diffrence<0){
-      diffrence = Math.abs(diffrence)
-      this.overTime = true
+      diffrence = Math.abs(diffrence);
+      this.overTime = true;
     } else{
-      this.overtime = false
+      this.overtime = false;
     }
-    return diffrence
+    return diffrence;
   }
 
 

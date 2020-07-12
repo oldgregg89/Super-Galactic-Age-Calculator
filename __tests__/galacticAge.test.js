@@ -70,4 +70,14 @@ describe ('galacticAge', () => {
     expect(GL_Age.overTime).toEqual(true);
   });
 
+  test('Jupiter life expectency', () => {
+    let galacticAge = new GalacticAge(32, 99);
+    let expectancy = galacticAge.jupiterExpectency();
+    let age = galacticAge.jupiterAge();
+    let expectedResult = expectancy - age;
+    let result = galacticAge.calculateYears(expectancy, age);
+    expect(result).toEqual(expectedResult);
+    expect(galacticAge.overTime).toBe(true);
+  });
+
 });
