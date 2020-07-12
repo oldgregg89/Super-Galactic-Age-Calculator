@@ -24,7 +24,12 @@ __
 
 ## Specs
 
-
+1. The program stores and returns a users age in Earth years    
+Input: 29
+Output: 29
+2. The program returns a users age in Mercury years     
+Input: 32
+Output: 133.33 
 
 
 ## Known Bugs

@@ -39,7 +39,14 @@ export class GalacticAge {
   }
 
   calculateYears(lifeEx,age){
-
+    let diffrence = lifeEx-age
+    if(diffrence<0){
+      diffrence = Math.abs(diffrence)
+      this.overTime = true
+    } else{
+      this.overtime = false
+    }
+    return diffrence
   }
 
 
